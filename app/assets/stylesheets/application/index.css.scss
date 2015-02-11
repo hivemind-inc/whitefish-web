@@ -1,25 +1,21 @@
 header {
-  padding: 10rem 0;
+  padding: 20rem 0;
+  text-align: center;
 
   h1 {
     margin: 0;
     font-size: 5rem;
     text-transform: uppercase;
   }
+
+  h2 {
+    font-size: 2.25rem;
+    max-width: 30rem;
+    margin: 1rem auto;
+  }
 }
 
 #info {
-  padding: 5rem 0;
-  color: #fff;
-
-  article {
-
-    height: 40rem;
-
-    h3 {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-  }
+  height: 60rem;
 }
 
