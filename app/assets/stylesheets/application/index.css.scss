@@ -1,17 +1,51 @@
 header {
   padding: 10rem 0 30rem 0;
   text-align: center;
+  position: relative;
 
   h1 {
     margin: 0;
     font-size: 5rem;
     text-transform: uppercase;
+    color: #FAFAFA;
   }
 
   h2 {
     font-size: 2.25rem;
     max-width: 30rem;
     margin: 1rem auto;
+    color: #FAFAFA;
+  }
+
+  .header-image-container {
+    margin-top: 1rem;
+    position: absolute;
+    width: 50rem;
+    margin-left: -25rem;
+    left: 50%;
+
+    img {
+      &.img-left,
+      &.img-right {
+        position: absolute;
+        top: 15%;
+        margin-left: -12.5rem;
+        width: 25rem;
+        z-index: -1;
+      }
+
+      &.img-left {
+        left: 15%;
+      }
+
+      &.img-right {
+        left: 85%;
+      }
+
+      &.img-center {
+        width: 35rem;
+      }
+    }
   }
 }
 
