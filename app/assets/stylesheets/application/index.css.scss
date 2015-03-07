@@ -2,54 +2,61 @@ header {
   padding: 10rem 0 30rem 0;
   text-align: center;
   position: relative;
+  background-image: asset-url("header.jpg");
 
   h1 {
-    margin: 0;
+    margin: 0 0 3rem 0;
     font-size: 5rem;
     text-transform: uppercase;
-    color: #FAFAFA;
+    color: #fff;
   }
 
   h2 {
     font-size: 2.25rem;
-    max-width: 30rem;
+    max-width: 40rem;
     margin: 1rem auto;
-    color: #FAFAFA;
-  }
-
-  .header-image-container {
-    margin-top: 1rem;
-    position: absolute;
-    width: 50rem;
-    margin-left: -25rem;
-    left: 50%;
-
-    img {
-      &.img-left,
-      &.img-right {
-        position: absolute;
-        top: 15%;
-        margin-left: -12.5rem;
-        width: 25rem;
-        z-index: -1;
-      }
-
-      &.img-left {
-        left: 15%;
-      }
-
-      &.img-right {
-        left: 85%;
-      }
-
-      &.img-center {
-        width: 35rem;
-      }
-    }
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
   }
 }
 
 #info {
-  height: 60rem;
+  padding: 10rem;
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  hr {
+    border: 3px solid;
+    max-width: 20rem;
+    margin: 4rem auto 6rem auto;
+  }
+
+  a {
+    background: #424242;
+    margin: 1rem;
+    padding: 5rem;
+    text-decoration: none;
+
+    // TODO: make mixin
+    -webkit-transition: background 0.25s;
+    transition: background 0.25s;
+
+    h4 {
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    &:hover {
+      background: #5C4040;
+    }
+  }
 }
 
