@@ -22,7 +22,7 @@ header {
 }
 
 #info {
-  padding: 10rem;
+  padding: 10rem 0;
 
   h3 {
     text-align: center;
@@ -42,6 +42,7 @@ header {
     margin: 1rem;
     padding: 5rem;
     text-decoration: none;
+    min-width: 32rem;
 
     // TODO: make mixin
     -webkit-transition: background 0.25s;
@@ -51,7 +52,7 @@ header {
       color: #fff;
       text-transform: uppercase;
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.75rem;
     }
 
     &:hover {
