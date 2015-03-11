@@ -1,11 +1,10 @@
 header {
-  padding: 10rem 0 30rem 0;
+  padding: 15rem 0;
   text-align: center;
   position: relative;
-  background-image: asset-url("header.jpg");
+  background-image: asset-url("footer_lodyas.png");
 
   h1 {
-    margin: 0 0 3rem 0;
     font-size: 5rem;
     text-transform: uppercase;
     color: #fff;
@@ -21,7 +20,7 @@ header {
   }
 }
 
-#info {
+#gaming-now {
   padding: 10rem 0;
 
   h3 {
@@ -32,32 +31,68 @@ header {
   }
 
   hr {
-    border: 3px solid;
-    max-width: 20rem;
-    margin: 4rem auto 6rem auto;
+    border: 2px solid;
+    max-width: 27rem;
+    margin: 1rem auto 5rem auto;
   }
 
   a {
-    background: #424242;
+    background: #5C4040;
     margin: 1rem;
     padding: 5rem;
     text-decoration: none;
     min-width: 32rem;
+    color: #fff;
 
     // TODO: make mixin
     -webkit-transition: background 0.25s;
     transition: background 0.25s;
 
     h4 {
-      color: #fff;
+
       text-transform: uppercase;
       text-align: center;
       font-size: 2.75rem;
     }
 
     &:hover {
-      background: #5C4040;
+      background: #8F6464;
     }
   }
 }
 
+#server-info {
+  background: #333;
+
+  .row {
+
+    max-width: 60rem;
+    margin: 10rem auto;
+    text-align: center;
+
+    .glyphicon {
+      color: #fff;
+      font-size: 15rem;
+    }
+
+    h4 {
+      display: inline-block;
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      letter-spacing: 0.05rem;
+    }
+
+    h4,
+    p {
+      color: #fff;
+    }
+  }
+}
+
+footer {
+  background: #DBDBDB;
+  padding: 1.5rem;
+}
