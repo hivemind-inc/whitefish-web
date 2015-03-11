@@ -2,10 +2,10 @@
 
 ## Getting started
 
-### Load libraries
+### 1. Load libraries
 
     bundle
 
-### Run application
+### 2. Run application
 
     rails s
