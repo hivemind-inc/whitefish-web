@@ -1,4 +1,8 @@
 footer {
   background: #DBDBDB;
   padding: 1.5rem;
+
+  span {
+    color: lighten(#000, 30%);
+  }
 }
