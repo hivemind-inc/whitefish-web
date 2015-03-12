@@ -66,6 +66,12 @@ header {
 
   .row {
 
+    &#scale span:first-of-type {
+      @media (min-width: 990px) {
+        float: right;
+      }
+    }
+
     max-width: 60rem;
     margin: 10rem auto;
     text-align: center;
@@ -73,6 +79,7 @@ header {
     .glyphicon {
       color: #fff;
       font-size: 15rem;
+      margin: 3rem;
     }
 
     h4 {
