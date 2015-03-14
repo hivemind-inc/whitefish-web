@@ -28,3 +28,9 @@ body {
 h1 {
   margin: 0;
 }
+
+.wf-container {
+  color: #fff;
+  background: #333;
+  padding: 5rem 0;
+}
