@@ -29,6 +29,9 @@ gem 'devise'
 # PostgreSQL adapter
 gem 'pg'
 
+# Amazon Web Services
+gem 'aws-sdk'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
