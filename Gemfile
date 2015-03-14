@@ -44,5 +44,8 @@ group :development, :test do
 
   # Devise handles user authentication
   gem 'devise'
+
+  # PostgreSQL adapter
+  gem 'pg'
 end
 
