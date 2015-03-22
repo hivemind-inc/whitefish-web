@@ -20,4 +20,5 @@
 .DS_Store
 
 config/secrets.yml
+config/aws.yml
 
